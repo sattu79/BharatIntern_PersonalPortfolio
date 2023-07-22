@@ -1,0 +1,208 @@
+.{
+    margin:0;
+    padding:0;
+    box-shadow:border-box;
+    font-family:'Times New Roman', Times, serif
+}
+
+body{
+    background-color: rgb(3, 3, 29);
+    color: beige;
+}
+
+
+header{
+    position: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgb(3, 3, 29);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}               
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color:#ffff;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: default;
+    animation: slideRight 1s ease forwards;
+}
+
+.navbar{
+    display: inline;
+    font-size: 25px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 25px;
+    padding:12px 17px;
+    transition: .5s;
+}
+
+.navbar a{
+
+
+    padding: 10px;
+    color: #f2f2f2;
+    text-align: center;
+    
+}
+
+.navbar a:hover {
+    background-color: #f10c0c;
+    color: black;
+  }
+  
+  
+
+
+.Home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url();
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.home-content{
+    max-width: 600px;
+    color: beige;
+
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 200;
+    color: beige;
+
+}
+.home-content h3:nth-of-type(2){
+    margin-bottom: 30px;
+
+}
+.home-content h3 span{
+    color:beige;
+}
+
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: -3px 0;
+    color: beige;
+
+}
+
+.home-content p{
+    font-size: 20px;
+
+}
+
+.home-sci a{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: rgb(248, 253, 252);
+    border: 2px solid #6ebac7;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(9, 8, 8);
+    text-decoration: none;
+    
+    margin: 30px 15px 30px 0;
+
+}
+
+.home-sci a :hover{
+    transform: scale(1.1);
+    background: #fa0c14;
+    color:black ;
+    box-shadow: 0 0 20px red;
+    transition: .5s;
+}
+
+.btn-box1{
+    display: inline-block;
+    padding: 12px 20px;
+    background: rgb(246, 9, 9);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(245, 237, 237);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: ease .40s;
+
+}
+
+.btn-box1 :hover{
+    transform: scale(1.1);
+
+}
+
+.btn-box2{
+    display: inline-block;
+    padding: 12px 20px;
+    background: rgb(240, 235, 235);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(160, 8, 8);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: ease .40s;
+
+}
+
+.btn-box2 :hover{
+    transform: scale(1.1);
+
+}
+
+
+
+
+
+@keyframes slideRight {
+    0%{
+        transform: translateX[-100px];
+        opacity: 0;
+    }
+    100%{
+        transform:translateX[-100px];
+        opacity: 1;
+    }
+}
+
+.images{
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    
+}
+
+
+@keyframes slideTop {
+    0%{
+        transform: translateY[-100px];
+        opacity: 0;
+    }
+    100%{
+        transform:translateY[-100px];
+        opacity: 1;
+    }
+}
+
